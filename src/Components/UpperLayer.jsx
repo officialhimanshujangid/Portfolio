@@ -1,36 +1,47 @@
-import styled from "@emotion/styled";
 import { Box, Typography } from "@mui/material";
 import Links from "./Links";
 
-const Row = styled("div")`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-`;
-
 function UpperLayer() {
   return (
-    <Row>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: { lg: "row", xs: "column" },
+        alignItems: "center",
+        justifyContent: "space-between",
+        paddingTop: { lg: "0.5rem", xs: "3rem" },
+        paddingLeft: " 1rem",
+        paddingRight: "1rem",
+      }}
+    >
       <Box
         sx={{
           display: "flex",
-          gap: "2rem",
+          flexDirection: { lg: "row", xs: "column" },
+          gap: { lg: "3rem", xs: "0rem" },
           alignItems: "center",
         }}
       >
-        <Typography sx={{ display: "inline-block" }} variant="h4">
+        <Typography
+          sx={{
+            display: "inline-block",
+            fontSize: { lg: "2rem", xs: "1.8rem" },
+          }}
+        >
           Himanshu Jangid
         </Typography>
-        <Typography sx={{ display: "inline-block" }} variant="h6">
+        <Typography
+          sx={{
+            display: "inline-block",
+            fontSize: { lg: "1.5rem", xs: "1.2rem" },
+          }}
+        >
           Web Developer
         </Typography>
       </Box>
 
       <Links />
-    </Row>
+    </Box>
   );
 }
 

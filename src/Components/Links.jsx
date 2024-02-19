@@ -2,31 +2,44 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import XIcon from "@mui/icons-material/X";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import styled from "@emotion/styled";
-import { Box } from "@mui/material";
-import ReorderIcon from "@mui/icons-material/Reorder";
-const Div = styled("div")`
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-`;
+import { Box, Link } from "@mui/material";
+
 function Links() {
   return (
-    <>
-      <Div>
-        <Box sx={{ display: { lg: "flex" }, gap: "3rem" }}>
-          <GitHubIcon sx={{ fontSize: { lg: "2.5rem" }, color: "#4338ca" }} />
-          <LinkedInIcon sx={{ fontSize: { lg: "2.5rem" }, color: "#4338ca" }} />
-          <XIcon sx={{ fontSize: { lg: "2.5rem" }, color: "#4338ca" }} />
-          <InstagramIcon
-            sx={{ fontSize: { lg: "2.5rem" }, color: "#4338ca" }}
-          />
-        </Box>
-        <Box sx={{ display: { lg: "none" } }}>
-          <ReorderIcon sx={{ fontSize: { lg: "2.5rem" }, color: "#4338ca" }} />
-        </Box>
-      </Div>
-    </>
+    <Box sx={{ display: "flex", gap: "1rem", marginTop: "0.5rem" }}>
+      <Link
+        href="https://github.com/officialhimanshujangid"
+        target="_blank"
+        rel="noopener noreferrer"
+        color={"inherit"}
+      >
+        <GitHubIcon sx={{ fontSize: { lg: "1.5rem" } }} />
+      </Link>
+      <Link
+        href="https://www.linkedin.com/in/officalhimanshujangid/"
+        target="_blank"
+        rel="noopener noreferrer"
+        color={"inherit"}
+      >
+        <LinkedInIcon sx={{ fontSize: { lg: "1.5rem" } }} />
+      </Link>
+      <Link
+        href="https://twitter.com/code_with_him"
+        target="_blank"
+        rel="noopener noreferrer"
+        color={"inherit"}
+      >
+        <XIcon sx={{ fontSize: { lg: "1.5rem" } }} />
+      </Link>
+      <Link
+        href="https://www.instagram.com/hi.man.shu_j"
+        target="_blank"
+        rel="noopener noreferrer"
+        color={"inherit"}
+      >
+        <InstagramIcon sx={{ fontSize: { lg: "1.5rem" } }} />
+      </Link>
+    </Box>
   );
 }
 

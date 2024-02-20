@@ -9,6 +9,8 @@ const Box1 = styled(Box)`
     flex-direction: row;
     justify-content: space-around;
     align-items: last baseline;
+    height: 2.3rem;
+    border-radius: 5px;
   }
   @media (min-width: 1200px) {
     gap: 2.5rem;
@@ -46,12 +48,12 @@ const Link1 = styled(Link)`
     &.active::before {
       top: -1.2rem;
       border-radius: 0 0 100vw 0;
-      box-shadow: 8px 8px 0 8px #18212f;
+      box-shadow: 3px 3px 0 3px #18212f;
     }
     &.active::after {
       bottom: -1.2rem;
       border-radius: 0 100vw 0 0;
-      box-shadow: 8px -8px 0 8px #18212f;
+      box-shadow: 3px -3px 0 3px #18212f;
     }
   }
 `;

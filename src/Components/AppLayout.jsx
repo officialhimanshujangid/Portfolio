@@ -26,11 +26,11 @@ const Main = styled(Box)`
   margin-inline: 5px;
   @media (max-width: 768px) {
     grid-template-rows: 5vh 1fr;
-    height: 86vh;
+    height: 85vh;
   }
   @media (min-width: 768px) {
     grid-template-columns: 15vw 1fr;
-    height: 86vh;
+    height: 85vh;
   }
 `;
 

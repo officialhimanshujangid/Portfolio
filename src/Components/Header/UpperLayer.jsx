@@ -1,5 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import Links from "./Links";
+// import HeaderImage from "./HeaderImage";
 
 function UpperLayer() {
   return (
@@ -9,9 +10,9 @@ function UpperLayer() {
         flexDirection: { lg: "row", xs: "column" },
         alignItems: "center",
         justifyContent: "space-between",
-        paddingTop: { lg: "0.5rem", xs: "2.5rem" },
+        paddingTop: "0.5rem",
         paddingLeft: " 1rem",
-        paddingRight: "1rem",
+        paddingRight: "2rem",
       }}
     >
       <Box
@@ -39,6 +40,7 @@ function UpperLayer() {
           ( Web Developer )
         </Typography>
       </Box>
+      {/* <HeaderImage /> */}
 
       <Links />
     </Box>

@@ -11,9 +11,9 @@ function HeaderImage() {
         width: "80px",
         height: "80px",
         borderRadius: "10px",
-        position: "absolute",
-        left: "50%",
-        transform: "translatey(-50%) translate(-50%)",
+        // position: "absolute",
+        // left: "50%",
+        // transform: "translatey(-50%) translate(-50%)",
         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.8)",
       }}
     >

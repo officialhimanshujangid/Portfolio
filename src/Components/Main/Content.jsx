@@ -4,6 +4,8 @@ const Div = styled("div")`
   overflow: scroll;
   scroll-behavior: smooth;
   padding-left: 2rem;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
 `;
 function Content() {
   return (
@@ -32,6 +34,29 @@ function Content() {
         expedita quod tempora. Velit, nostrum veritatis nihil, dolores quas unde
         laboriosam perferendis deserunt sunt numquam fugit doloremque et iusto
         eos dolorem consectetur ab! Reiciendis in possimus corrupti pariatur.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+        exercitationem animi est maxime temporibus nobis quam ipsam blanditiis
+        explicabo dolorum quis laboriosam voluptates veritatis dolores
+        aspernatur reprehenderit, natus voluptatum tenetur perspiciatis totam
+        labore aperiam fuga facilis quaerat! At cupiditate soluta a, ipsum
+        officiis quis perferendis, atque placeat, assumenda maxime magnam ad!
+        Eligendi, autem. Expedita recusandae corporis accusamus harum id
+        inventore repudiandae nobis obcaecati aut consectetur, rerum libero
+        asperiores tempore commodi nam numquam nisi non eum nostrum perferendis
+        sunt beatae architecto quisquam! Fugit omnis officiis saepe iste vero
+        necessitatibus dignissimos ipsam quod corrupti veniam sit nam nemo vel
+        facere laborum eveniet neque quas explicabo, accusantium quaerat totam
+        eum fuga molestias vitae? Fugiat rem adipisci quibusdam sed libero
+        nostrum voluptatem, recusandae exercitationem earum, cum vero ipsum
+        quasi numquam sequi atque officiis, nobis rerum quisquam! Suscipit odit
+        eveniet cumque modi maiores consequatur et aut omnis recusandae
+        blanditiis explicabo minima perferendis porro voluptate fuga beatae
+        illum excepturi, sequi eius. Totam dolore aut eligendi error deleniti
+        perferendis modi, incidunt quaerat nesciunt molestias temporibus minus
+        in mollitia reprehenderit laboriosam nulla. Harum sit culpa est dolores
+        natus quod iure, nulla totam fugit repudiandae aliquam, dicta commodi,
+        architecto accusamus ullam? Beatae non provident voluptatibus tempora
+        alias tempore quibusdam!
       </div>
       <div id="Projects">
         <h1>about</h1>

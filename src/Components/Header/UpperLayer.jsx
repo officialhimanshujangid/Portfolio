@@ -13,20 +13,21 @@ function UpperLayer() {
         paddingTop: "0.5rem",
         paddingLeft: " 1rem",
         paddingRight: "2rem",
+        paddingBottom: "0.5rem",
       }}
     >
       <Box
         sx={{
           display: "flex",
 
-          gap: { lg: "3rem", xs: "0.8rem" },
+          gap: { lg: "3rem", xs: "0.5rem" },
           alignItems: "center",
         }}
       >
         <Typography
           sx={{
             display: "inline-block",
-            fontSize: { lg: "2rem", xs: "1.2rem" },
+            fontSize: { lg: "2.3rem", xs: "1.3rem" },
           }}
         >
           Himanshu Jangid
@@ -34,7 +35,7 @@ function UpperLayer() {
         <Typography
           sx={{
             display: "inline-block",
-            fontSize: { lg: "1.5rem", xs: "1rem" },
+            fontSize: { lg: "1.8rem", xs: "0.8rem" },
           }}
         >
           ( Web Developer )

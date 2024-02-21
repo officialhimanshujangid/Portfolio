@@ -6,8 +6,7 @@ import Content from "./Main/Content";
 import NavBar from "./Main/NavBar";
 const Box1 = styled(Box)`
   position: fixed;
-  width: 96vw;
-  height: 96vh;
+
   background-color: #0a192f;
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -19,7 +18,7 @@ const Box1 = styled(Box)`
     margin-block: 10px;
   }
   @media (min-width: 1200px) {
-    width: 96vw;
+    width: 98vw;
     height: 96vh;
   }
 `;

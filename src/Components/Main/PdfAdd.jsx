@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 const Div = styled("div")`
   @media (max-width: 1200px) {
+    text-align: center;
   }
   @media (min-width: 1200px) {
     text-align: center;
@@ -14,10 +15,10 @@ const Button = styled("button")`
     width: 90%;
     border: none;
     border-radius: 10vw;
-    padding-block: 5px;
+    padding-block: 3px;
     font-family: "Source Code Pro", monospace;
-    letter-spacing: 2px;
-    font-weight: 700;
+    letter-spacing: 3px;
+    font-weight: 600;
 
     margin-top: 0.6rem;
     cursor: pointer;
@@ -42,7 +43,7 @@ const Button = styled("button")`
     transition: all 0.5s ease-in-out;
     &:hover {
       transform: scale(1.06);
-      transition: all 0.3s ease-in-out;
+      transition: all 0.1s ease-in-out;
     }
   }
 `;

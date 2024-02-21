@@ -19,7 +19,7 @@ const Div = styled("div")`
   }
   @media (min-width: 1200px) {
     padding-left: 2rem;
-    height: 84vh;
+    height: 85vh;
   }
 `;
 function Content() {

@@ -13,7 +13,7 @@ const Div = styled("div")`
   @media (min-width: 1200px) {
     padding-left: 1.2rem;
     padding-top: 0.5rem;
-    margin-bottom: 1rem;
+    padding-bottom: 2rem;
   }
 `;
 const H1 = styled("h1")`
@@ -23,12 +23,22 @@ const H1 = styled("h1")`
   }
   @media (min-width: 1200px) {
     font-size: 4rem;
-    margin-block: 0.5rem;
+    margin-block: 0rem;
+  }
+`;
+const H2 = styled("h1")`
+  @media (max-width: 1200px) {
+    font-size: 2rem;
+    margin-block: 0.2rem;
+  }
+  @media (min-width: 1200px) {
+    font-size: 4rem;
+    margin-block: 0rem;
   }
 `;
 const P = styled("p")`
   @media (max-width: 1200px) {
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     margin-block: 0.5rem;
   }
   @media (min-width: 1200px) {
@@ -38,7 +48,7 @@ const P = styled("p")`
 `;
 const P2 = styled("p")`
   @media (max-width: 1200px) {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-block: 0.5rem;
   }
   @media (min-width: 1200px) {
@@ -53,9 +63,9 @@ const Span = styled("span")`
 `;
 const Span1 = styled("span")`
   color: #5cebcb;
-  font-size: 5rem;
+  font-size: 6rem;
   @media (max-width: 1200px) {
-    font-size: 2.5rem;
+    font-size: 4rem;
     margin-block: 0.5rem;
   }
 `;
@@ -63,7 +73,7 @@ const Span1 = styled("span")`
 function About() {
   return (
     <Div id="About">
-      <H1>Hi,</H1>
+      <H2>Hi,</H2>
       <H1>
         I&apos;m <Span1>Himanshu</Span1> ,
       </H1>

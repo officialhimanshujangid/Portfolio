@@ -37,8 +37,8 @@ const Link1 = styled(Link)`
   }
   @media (max-width: 1200px) {
     padding: 7px;
-    font-size: 0.8rem;
-    border-radius: 100vw;
+    font-size: 2rem;
+    /* border-radius: 100vw; */
   }
   @media (min-width: 1200px) {
     display: flex;

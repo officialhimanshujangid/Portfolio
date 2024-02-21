@@ -9,13 +9,14 @@ function UpperLayer() {
         color: "white",
         display: "flex",
         width: "100%",
+        height: "10vh",
         flexDirection: { lg: "row", xs: "column" },
         alignItems: "center",
-        justifyContent: "center",
-        paddingTop: "0.5rem",
+        justifyContent: "space-around",
+        paddingTop: "1vh",
         paddingLeft: " 1rem",
         paddingRight: "2rem",
-        paddingBottom: "0.5rem",
+        paddingBottom: "1vh",
       }}
     >
       <Box

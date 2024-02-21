@@ -15,7 +15,7 @@ const Box1 = styled(Box)`
   border-radius: 10px;
   @media (max-width: 1200px) {
     width: 100vw;
-    height: 80vh;
+    height: 96vh;
   }
   @media (min-width: 1200px) {
     width: 96vw;

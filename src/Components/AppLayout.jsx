@@ -6,13 +6,21 @@ import Content from "./Main/Content";
 import NavBar from "./Main/NavBar";
 const Box1 = styled(Box)`
   position: fixed;
-  width: 99vw;
-  height: 98vh;
+  width: 96vw;
+  height: 96vh;
   background-color: #0a192f;
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 2px;
   border-radius: 10px;
+  @media (max-width: 1200px) {
+    width: 100vw;
+    height: 80vh;
+  }
+  @media (min-width: 1200px) {
+    width: 96vw;
+    height: 96vh;
+  }
 `;
 const Head = styled(Box)`
   position: sticky;
@@ -24,11 +32,11 @@ const Main = styled(Box)`
   height: 86vh;
   color: aliceblue;
   margin-inline: 5px;
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     grid-template-rows: 5vh 1fr;
     height: 85vh;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
     grid-template-columns: 15vw 1fr;
     height: 85vh;
   }

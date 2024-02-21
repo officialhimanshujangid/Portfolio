@@ -8,12 +8,13 @@ const Div = styled("div")`
     padding-left: 0.5rem;
     padding-top: 0.2px;
     padding-right: 0.5rem;
-    margin-bottom: 1rem;
+    padding-bottom: 5vh;
   }
   @media (min-width: 1200px) {
     padding-left: 1.2rem;
     padding-top: 0.5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1vh;
+    padding-bottom: 5vh;
   }
 `;
 const H1 = styled("h1")`
@@ -53,7 +54,7 @@ const P2 = styled("p")`
   }
   @media (min-width: 1200px) {
     font-size: 1rem;
-    margin-block: 1.5rem;
+    margin-block: 0.5rem;
     letter-spacing: 1.5px;
     color: #8791ae;
   }
@@ -65,7 +66,7 @@ const Span1 = styled("span")`
   color: #5cebcb;
   font-size: 6rem;
   @media (max-width: 1200px) {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-block: 0.5rem;
   }
 `;

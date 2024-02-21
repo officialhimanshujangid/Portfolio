@@ -100,7 +100,7 @@ function NavBar() {
         </Span1>
         <Span2>About</Span2>
       </Link1>
-      <Link1 className="section" href={`#Slills`} onClick={handleLinkClick}>
+      <Link1 className="section" href={`#Skills`} onClick={handleLinkClick}>
         <Span1>
           <RiMindMap />
         </Span1>

@@ -4,6 +4,7 @@ import Project from "../../pages/Project";
 import Experience from "../../pages/Experience";
 import Education from "../../pages/Education";
 import Additional from "../../pages/Additional";
+import Skill from "../../pages/Skill";
 
 const Div = styled("div")`
   overflow: scroll;
@@ -26,6 +27,7 @@ function Content() {
   return (
     <Div>
       <About />
+      <Skill />
       <Project />
       <Experience />
       <Education />

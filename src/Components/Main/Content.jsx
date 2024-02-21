@@ -15,9 +15,11 @@ const Div = styled("div")`
   @media (max-width: 1200px) {
     padding-left: 0.2rem;
     margin-top: 0.3rem;
+    height: 76vh;
   }
   @media (min-width: 1200px) {
     padding-left: 2rem;
+    height: 84vh;
   }
 `;
 function Content() {

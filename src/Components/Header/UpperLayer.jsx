@@ -6,10 +6,12 @@ function UpperLayer() {
   return (
     <Box
       sx={{
+        color: "white",
         display: "flex",
+        width: "100%",
         flexDirection: { lg: "row", xs: "column" },
         alignItems: "center",
-        justifyContent: "space-between",
+        justifyContent: "center",
         paddingTop: "0.5rem",
         paddingLeft: " 1rem",
         paddingRight: "2rem",

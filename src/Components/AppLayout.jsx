@@ -6,9 +6,9 @@ import Content from "./Main/Content";
 import NavBar from "./Main/NavBar";
 const Box1 = styled(Box)`
   position: fixed;
-  width: 90vw;
-  height: 95vh;
-  background-color: #18212f;
+  width: 99vw;
+  height: 98vh;
+  background-color: #0a192f;
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 2px;

@@ -14,5 +14,6 @@ html,
   justify-content: center;
   align-items: center;
   background-color: #c9e0eb;
-  overflow: hidden;
+  overflow: auto;
+
 }

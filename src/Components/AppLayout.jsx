@@ -16,6 +16,7 @@ const Box1 = styled(Box)`
   @media (max-width: 1200px) {
     width: 100vw;
     height: 98vh;
+    margin-block: 10px;
   }
   @media (min-width: 1200px) {
     width: 96vw;

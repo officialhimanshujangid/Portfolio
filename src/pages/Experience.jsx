@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import { MdOutlineWork } from "react-icons/md";
 const Div4 = styled("div")`
   font-family: "Nunito Sans", sans-serif;
+  padding-inline: 1rem;
 `;
 const Div = styled("div")`
   display: flex;

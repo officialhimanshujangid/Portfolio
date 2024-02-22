@@ -8,13 +8,13 @@ const Div = styled("div")`
     padding-left: 0.5rem;
     padding-top: 0.2px;
     padding-right: 0.5rem;
-    padding-bottom: 5vh;
+    padding-bottom: 0.5rem;
   }
   @media (min-width: 1200px) {
     padding-left: 1.2rem;
     padding-top: 0.5rem;
     padding-bottom: 1vh;
-    padding-bottom: 5vh;
+    padding-bottom: 1vh;
   }
 `;
 const H1 = styled("h1")`
@@ -29,8 +29,9 @@ const H1 = styled("h1")`
 `;
 const H2 = styled("h1")`
   @media (max-width: 1200px) {
-    font-size: 2rem;
-    margin-block: 0.2rem;
+    font-size: 3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0px;
   }
   @media (min-width: 1200px) {
     font-size: 4rem;
@@ -40,19 +41,21 @@ const H2 = styled("h1")`
 const P = styled("p")`
   @media (max-width: 1200px) {
     font-size: 1.3rem;
-    margin-block: 0.5rem;
+    margin-block: 0.8rem;
   }
   @media (min-width: 1200px) {
     font-size: 2rem;
-    margin-block: 1.2rem;
+    margin-block: 1.5rem;
   }
 `;
 const P2 = styled("p")`
   @media (max-width: 1200px) {
     font-size: 1rem;
-    margin-block: 0.5rem;
+    margin-block: 1rem;
+    letter-spacing: 1px;
   }
   @media (min-width: 1200px) {
+    letter-spacing: 0.8rem;
     font-size: 1rem;
     margin-block: 0.5rem;
     letter-spacing: 1.5px;

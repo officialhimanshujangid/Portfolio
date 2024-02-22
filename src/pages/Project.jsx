@@ -4,6 +4,7 @@ import { ImLink } from "react-icons/im";
 
 const Div = styled(Box)`
   font-family: "Nunito Sans", sans-serif;
+  padding-inline: 1rem;
 `;
 const Div2 = styled(Box)`
   display: flex;

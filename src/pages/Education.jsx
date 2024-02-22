@@ -3,6 +3,7 @@ import { IoSchoolSharp } from "react-icons/io5";
 
 const Div4 = styled("div")`
   font-family: "Nunito Sans", sans-serif;
+  padding-inline: 1rem;
 `;
 const Div = styled("div")`
   display: flex;

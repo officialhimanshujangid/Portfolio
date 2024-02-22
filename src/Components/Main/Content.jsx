@@ -8,18 +8,18 @@ import Skill from "../../pages/Skill";
 import Footer from "../../pages/Footer";
 
 const Div = styled("div")`
-  overflow: scroll;
-  scroll-behavior: smooth;
-  scrollbar-width: thin;
-  scrollbar-color: transparent transparent;
   text-align: justify;
   color: white;
+  background-color: #0a192f;
+  height: 88vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
   @media (max-width: 1200px) {
     padding-left: 0.2rem;
     margin-top: 0.3rem;
   }
   @media (min-width: 1200px) {
-    padding-left: 10px;
+    padding: 5px;
   }
 `;
 function Content() {

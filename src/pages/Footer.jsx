@@ -1,10 +1,12 @@
 import styled from "@emotion/styled";
+import Links from "../Components/Header/Links";
 
 const FooterContainer = styled("footer")`
   background-color: #0a192f;
   color: white;
   padding: 2rem;
   text-align: center;
+  margin-bottom: 30px;
 `;
 
 const FooterContent = styled("div")`
@@ -19,25 +21,17 @@ const FooterHeading = styled("h3")`
 `;
 
 const FooterParagraph = styled("p")`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 1rem;
   margin-bottom: 1rem;
 `;
 
 const FooterSpan = styled("a")`
   text-decoration: none;
-  letter-spacing: 1p;
+  letter-spacing: 1px;
   color: #5cebcb;
-`;
-
-const GoogleForm = styled("iframe")`
-  width: 50vw;
-  height: 50vh;
-  border-radius: 20px;
-  scrollbar-width: thin;
-  scrollbar-color: transparent transparent;
-  @media (max-width: 1200px) {
-    width: 70vw;
-  }
 `;
 
 function Footer() {
@@ -55,16 +49,10 @@ function Footer() {
             officialhimanshujangid@gmail.com
           </FooterSpan>
         </FooterParagraph>
+        <FooterParagraph>
+          <Links />
+        </FooterParagraph>
       </FooterContent>
-      <GoogleForm
-        title="Contact Form"
-        src="https://docs.google.com/forms/d/e/1FAIpQLScqxvRizSMlb8ALUp2QnrbbDUlDGsfE-ko8cVxN3A9KbInm7Q/viewform?usp=sf_link" // Replace with your Google Form URL
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      >
-        Loading…
-      </GoogleForm>
     </FooterContainer>
   );
 }

@@ -8,7 +8,11 @@ import { TbSchool } from "react-icons/tb";
 // import { TbInfoSquareRoundedFilled } from "react-icons/tb";
 import { RiContactsFill } from "react-icons/ri";
 const Box1 = styled(Box)`
-  background-color: rgb(159, 194, 186);
+  height: 12vh;
+  position: sticky;
+  top: 0;
+  padding-inline: 5px;
+  /* background-color: rgb(159, 194, 186); */
   display: flex;
   font-family: "Nunito Sans", sans-serif;
   @media (max-width: 1200px) {
@@ -20,7 +24,7 @@ const Box1 = styled(Box)`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-block: 10px;
+    /* padding-block: 10px; */
   }
 `;
 const Box2 = styled(Box)`
@@ -68,6 +72,18 @@ const Span2 = styled("span")`
   @media (max-width: 1200px) {
   }
 `;
+const Box3 = styled("h1")`
+  @media (min-width: 1200px) {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  @media (max-width: 1200px) {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+  }
+`;
 
 function NavBar() {
   const handleLinkClick = (e) => {
@@ -77,9 +93,10 @@ function NavBar() {
 
     e.target.closest(".section").classList.toggle("active");
   };
+
   return (
     <Box1>
-      <Box>&#60;&#62; Himanshu Jangid &#60;/&#62;</Box>
+      <Box3>&#60;&#62; Himanshu Jangid &#60;/&#62;</Box3>
       <Box2>
         <Link1
           className="section active"

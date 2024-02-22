@@ -15,6 +15,7 @@ const Div = styled("div")`
   display: grid;
   gap: 2vw;
   margin-bottom: 5vh;
+  padding-inline: 1rem;
 
   @media (max-width: 1200px) {
     grid-template-columns: repeat(2, 1fr);

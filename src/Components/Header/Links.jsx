@@ -20,7 +20,7 @@ function Links() {
       sx={{
         display: "flex",
         gap: { lg: "3.3rem", xs: "1.5rem" },
-        marginTop: "0.5rem",
+        marginTop: "1rem",
       }}
     >
       <Link
@@ -29,7 +29,7 @@ function Links() {
         color={"inherit"}
         onClick={handleGmailButtonClick}
       >
-        <LocalPostOfficeIcon sx={{ fontSize: { lg: "2rem" } }} />
+        <LocalPostOfficeIcon sx={{ fontSize: { lg: "3rem" } }} />
       </Link>
       <Link
         target="_blank"
@@ -37,7 +37,7 @@ function Links() {
         color={"inherit"}
         onClick={handleCallButtonClick}
       >
-        <PhoneIcon sx={{ fontSize: { lg: "2rem" } }} />
+        <PhoneIcon sx={{ fontSize: { lg: "3rem" } }} />
       </Link>
 
       <Link
@@ -46,7 +46,7 @@ function Links() {
         rel="noopener noreferrer"
         color={"inherit"}
       >
-        <GitHubIcon sx={{ fontSize: { lg: "2rem" } }} />
+        <GitHubIcon sx={{ fontSize: { lg: "3rem" } }} />
       </Link>
       <Link
         href="https://www.linkedin.com/in/officalhimanshujangid/"
@@ -54,7 +54,7 @@ function Links() {
         rel="noopener noreferrer"
         color={"inherit"}
       >
-        <LinkedInIcon sx={{ fontSize: { lg: "2rem" } }} />
+        <LinkedInIcon sx={{ fontSize: { lg: "3rem" } }} />
       </Link>
       <Link
         href="https://twitter.com/code_with_him"
@@ -62,7 +62,7 @@ function Links() {
         rel="noopener noreferrer"
         color={"inherit"}
       >
-        <XIcon sx={{ fontSize: { lg: "2rem" } }} />
+        <XIcon sx={{ fontSize: { lg: "3rem" } }} />
       </Link>
       <Link
         href="https://www.instagram.com/hi.man.shu_j"
@@ -70,7 +70,7 @@ function Links() {
         rel="noopener noreferrer"
         color={"inherit"}
       >
-        <InstagramIcon sx={{ fontSize: { lg: "2rem" } }} />
+        <InstagramIcon sx={{ fontSize: { lg: "3rem" } }} />
       </Link>
     </Box>
   );

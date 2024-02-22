@@ -30,11 +30,10 @@ const Box1 = styled(Box)`
   align-items: center;
   justify-content: space-around;
   gap: 0.9vh;
-  transition: all 0.3s ease-in-out;
-  &:hover {
+  /* &:hover {
     transform: scale(0.9);
     transition: all 0.3s ease-in-out;
-  }
+  } */
 
   @media (max-width: 1200px) {
     padding: 3vh 5vw;
@@ -58,13 +57,26 @@ const H1 = styled(Box)`
 const H2 = styled(Box)`
   font-size: 3vw;
   border-radius: 100vw;
-  background-color: #42d4b5;
-  color: black;
+
   width: 5vw;
   height: 5vw;
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: background 2s ease-in-out infinite;
+  background-color: #42d4b5;
+  color: black;
+
+  @keyframes background {
+    0% {
+      background-color: #42d4b5;
+      color: black;
+    }
+    50% {
+      background-color: #dee0e0;
+      color: #012920;
+    }
+  }
 `;
 const H3 = styled("h1")`
   font-family: "Nunito Sans", sans-serif;

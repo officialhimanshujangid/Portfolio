@@ -5,17 +5,31 @@ import { ImLink } from "react-icons/im";
 const Div = styled(Box)`
   font-family: "Nunito Sans", sans-serif;
 `;
-const Div2 = styled(Box)``;
+const Div2 = styled(Box)`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+`;
 const Div4 = styled(Box)`
   border: 3px solid white;
   padding: 2vh 2vw;
   margin: 1.5vh;
+  transition: all 0.3s ease-in-out;
   border-radius: 10px;
+  &:hover {
+    transform: scale(0.95);
+    transition: all 0.3s ease-in-out;
+  }
 `;
 const Div3 = styled("a")`
+  width: 35vw;
   text-decoration: none;
   color: aliceblue;
   cursor: pointer;
+  @media (max-width: 1200px) {
+    width: 500px;
+  }
 `;
 const H1 = styled("h1")`
   margin: 0;

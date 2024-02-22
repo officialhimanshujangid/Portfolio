@@ -3,8 +3,9 @@ import About from "../../pages/About";
 import Project from "../../pages/Project";
 import Experience from "../../pages/Experience";
 import Education from "../../pages/Education";
-import Additional from "../../pages/Additional";
+
 import Skill from "../../pages/Skill";
+import Footer from "../../pages/Footer";
 
 const Div = styled("div")`
   overflow: scroll;
@@ -31,7 +32,7 @@ function Content() {
       <Project />
       <Experience />
       <Education />
-      <Additional />
+      <Footer />
     </Div>
   );
 }

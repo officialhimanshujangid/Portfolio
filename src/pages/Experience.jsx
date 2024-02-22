@@ -104,7 +104,7 @@ const H3 = styled("h2")`
 function Experience() {
   return (
     <Div4 id="Experience">
-      <H3>Experience</H3>
+      <H3>Professional Journey</H3>
       <Div>
         <Div2>
           <Div3>

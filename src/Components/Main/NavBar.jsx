@@ -5,7 +5,8 @@ import { AiFillProject } from "react-icons/ai";
 import { RiMindMap } from "react-icons/ri";
 import { MdOutlineWork } from "react-icons/md";
 import { TbSchool } from "react-icons/tb";
-import { TbInfoSquareRoundedFilled } from "react-icons/tb";
+// import { TbInfoSquareRoundedFilled } from "react-icons/tb";
+import { RiContactsFill } from "react-icons/ri";
 const Box1 = styled(Box)`
   background-color: #9fc2ba;
   display: flex;
@@ -45,7 +46,7 @@ const Link1 = styled(Link)`
     align-items: center;
     gap: 10px;
     padding: 0.3rem 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-left: 1rem;
     margin-right: 0;
     border-radius: 100px 0 0 100px;
@@ -128,15 +129,11 @@ function NavBar() {
         </Span1>
         <Span2>Education</Span2>
       </Link1>
-      <Link1
-        className="section "
-        href={`#Additional`}
-        onClick={handleLinkClick}
-      >
+      <Link1 className="section " href={`#contact`} onClick={handleLinkClick}>
         <Span1>
-          <TbInfoSquareRoundedFilled />
+          <RiContactsFill />
         </Span1>
-        <Span2>Additional</Span2>
+        <Span2>Contact me</Span2>
       </Link1>
     </Box1>
   );

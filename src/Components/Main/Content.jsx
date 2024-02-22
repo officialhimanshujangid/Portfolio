@@ -10,18 +10,16 @@ import Footer from "../../pages/Footer";
 const Div = styled("div")`
   overflow: scroll;
   scroll-behavior: smooth;
-  padding-left: 2rem;
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
   text-align: justify;
+  color: white;
   @media (max-width: 1200px) {
     padding-left: 0.2rem;
     margin-top: 0.3rem;
-    height: 76vh;
   }
   @media (min-width: 1200px) {
-    padding-left: 2rem;
-    height: 85vh;
+    padding-left: 10px;
   }
 `;
 function Content() {

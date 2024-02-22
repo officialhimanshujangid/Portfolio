@@ -1,7 +1,6 @@
-import UpperLayer from "./UpperLayer";
-
+import NavBar from "../Main/NavBar";
 function Header() {
-  return <UpperLayer />;
+  return <NavBar />;
 }
 
 export default Header;

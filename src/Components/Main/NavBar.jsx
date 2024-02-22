@@ -8,76 +8,64 @@ import { TbSchool } from "react-icons/tb";
 // import { TbInfoSquareRoundedFilled } from "react-icons/tb";
 import { RiContactsFill } from "react-icons/ri";
 const Box1 = styled(Box)`
-  background-color: #9fc2ba;
+  background-color: rgb(159, 194, 186);
   display: flex;
-  flex-direction: column;
   font-family: "Nunito Sans", sans-serif;
-
   @media (max-width: 1200px) {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* height: 2.3rem; */
-    border-radius: 5px;
   }
   @media (min-width: 1200px) {
-    gap: 1rem;
-    padding-block: 2rem;
-    height: 74vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 10px;
+  }
+`;
+const Box2 = styled(Box)`
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 1200px) {
+    justify-content: space-around;
+    align-items: center;
+  }
+  @media (min-width: 1200px) {
+    justify-content: space-around;
   }
 `;
 const Link1 = styled(Link)`
-  text-decoration: none;
   color: #000000;
-  margin-bottom: 0;
+  display: flex;
+  text-decoration: none;
+  width: 100%;
 
   &.active {
     background-color: #0a192f;
     position: relative;
+    border-radius: 100vh;
     color: white;
   }
   @media (max-width: 1200px) {
-    padding: 7px;
-    font-size: 2rem;
-    /* border-radius: 100vw; */
+    padding: 10px;
+    font-size: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
   @media (min-width: 1200px) {
-    display: flex;
     align-items: center;
-    gap: 10px;
     padding: 0.3rem 1.5rem;
     font-size: 1.2rem;
-    margin-left: 1rem;
-    margin-right: 0;
-    border-radius: 100px 0 0 100px;
-    &.active::before,
-    &.active::after {
-      content: "";
-      position: absolute;
-      width: 1.2rem;
-      height: 1.2rem;
-      right: 0;
-      background-color: transparent;
-    }
-    &.active::before {
-      top: -1.2rem;
-      border-radius: 0 0 100vw 0;
-      box-shadow: 5px 5px 0 5px #0a192f;
-    }
-    &.active::after {
-      bottom: -1.2rem;
-      border-radius: 0 100vw 0 0;
-      box-shadow: 5px -5px 0 5px #0a192f;
-    }
+    border-radius: 100px 100px 100px 100px;
+    gap: 10px;
   }
 `;
 const Span1 = styled("span")``;
 const Span2 = styled("span")`
   @media (min-width: 1200px) {
-    margin-left: 5px;
   }
   @media (max-width: 1200px) {
-    display: none;
   }
 `;
 
@@ -91,50 +79,61 @@ function NavBar() {
   };
   return (
     <Box1>
-      <Link1
-        className="section active"
-        href={`#About`}
-        onClick={handleLinkClick}
-      >
-        <Span1>
-          <MdDashboard />
-        </Span1>
-        <Span2>About</Span2>
-      </Link1>
-      <Link1 className="section" href={`#Skills`} onClick={handleLinkClick}>
-        <Span1>
-          <RiMindMap />
-        </Span1>
-        <Span2>Skills</Span2>
-      </Link1>
-      <Link1 className="section " href={`#Projects`} onClick={handleLinkClick}>
-        <Span1>
-          <AiFillProject />
-        </Span1>
-        <Span2>Projects</Span2>
-      </Link1>
-      <Link1
-        className="section "
-        href={`#Experience`}
-        onClick={handleLinkClick}
-      >
-        <Span1>
-          <MdOutlineWork />
-        </Span1>
-        <Span2>Experience</Span2>
-      </Link1>
-      <Link1 className="section " href={`#Education`} onClick={handleLinkClick}>
-        <Span1>
-          <TbSchool />
-        </Span1>
-        <Span2>Education</Span2>
-      </Link1>
-      <Link1 className="section " href={`#contact`} onClick={handleLinkClick}>
-        <Span1>
-          <RiContactsFill />
-        </Span1>
-        <Span2>Contact me</Span2>
-      </Link1>
+      <Box>&#60;&#62; Himanshu Jangid &#60;/&#62;</Box>
+      <Box2>
+        <Link1
+          className="section active"
+          href={`#About`}
+          onClick={handleLinkClick}
+        >
+          <Span1>
+            <MdDashboard />
+          </Span1>
+          <Span2>About</Span2>
+        </Link1>
+        <Link1 className="section" href={`#Skills`} onClick={handleLinkClick}>
+          <Span1>
+            <RiMindMap />
+          </Span1>
+          <Span2>Skills</Span2>
+        </Link1>
+        <Link1
+          className="section "
+          href={`#Projects`}
+          onClick={handleLinkClick}
+        >
+          <Span1>
+            <AiFillProject />
+          </Span1>
+          <Span2>Projects</Span2>
+        </Link1>
+        <Link1
+          className="section "
+          href={`#Experience`}
+          onClick={handleLinkClick}
+        >
+          <Span1>
+            <MdOutlineWork />
+          </Span1>
+          <Span2>Experience</Span2>
+        </Link1>
+        <Link1
+          className="section "
+          href={`#Education`}
+          onClick={handleLinkClick}
+        >
+          <Span1>
+            <TbSchool />
+          </Span1>
+          <Span2>Education</Span2>
+        </Link1>
+        <Link1 className="section " href={`#contact`} onClick={handleLinkClick}>
+          <Span1>
+            <RiContactsFill />
+          </Span1>
+          <Span2>Contact</Span2>
+        </Link1>
+      </Box2>
     </Box1>
   );
 }

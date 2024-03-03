@@ -22,9 +22,13 @@ const Div = styled("div")`
     padding: 5px;
   }
 `;
+
 function Content() {
+  function handleScroll(e) {
+    console.log(e.target.childElement);
+  }
   return (
-    <Div>
+    <Div onScroll={(e) => handleScroll(e)}>
       <About />
       <Skill />
       <Project />

@@ -20,7 +20,7 @@ const FooterHeading = styled("h3")`
   margin-bottom: 1rem;
 `;
 
-const FooterParagraph = styled("p")`
+const FooterParagraph = styled("div")`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +36,7 @@ const FooterSpan = styled("a")`
 
 function Footer() {
   return (
-    <FooterContainer id="contact">
+    <FooterContainer className="section1" id="contact">
       <FooterContent>
         <FooterHeading>Contact Me</FooterHeading>
         <FooterParagraph>

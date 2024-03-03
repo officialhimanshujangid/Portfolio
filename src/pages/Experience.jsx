@@ -104,16 +104,16 @@ const H3 = styled("h2")`
 `;
 function Experience() {
   return (
-    <Div4 id="Experience">
+    <Div4 className="section1" id="Experience">
       <H3>Professional Journey</H3>
       <Div>
         <Div2>
           <Div3>
             <MdOutlineWork />
           </Div3>
-          <H1>Web Development</H1>
-          <H2>Freelance</H2>
-          <P>03/2024-Present</P>
+          <H1>Frontend Engineer</H1>
+          <H2>NK Technologies | Jaipur</H2>
+          <P>03/2023-02/2024</P>
         </Div2>
         <Div2>
           <Div3>

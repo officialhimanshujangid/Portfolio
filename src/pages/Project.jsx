@@ -48,11 +48,11 @@ const H2 = styled("h2")`
   margin: 0;
   margin-bottom: 0.3vh;
   @media (max-width: 1200px) {
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: 1px;
   }
   @media (min-width: 1200px) {
-    font-size: 1.3rem;
+    font-size: 1rem;
     letter-spacing: 1px;
   }
 `;
@@ -91,7 +91,7 @@ const Span2 = styled("span")`
 
 function Project() {
   return (
-    <Div id="Projects">
+    <Div className="section1" id="Projects">
       <H4>Project Showcase</H4>
       <Div2>
         <Div3 href="https://the-wild-oasis-by-himanshu.netlify.app/">
@@ -142,6 +142,26 @@ function Project() {
                 digital user experiences, managing diverse product catalogs, and
                 implementing secure e-commerce solutions
               </Span>
+            </H3>
+          </Div4>
+        </Div3>
+        <Div3 href="https://fast-react-pizza-by-himanshu.netlify.app/">
+          <Div4>
+            <H1>
+              {" "}
+              <Span2>
+                <ImLink />
+              </Span2>{" "}
+              FAST REACT PIZZA CO.
+            </H1>
+            <H2>Ultimate Stop for Quick Food Delivery</H2>
+            <H3>
+              Used <Span>React and Tailwind CSS </Span>to design sleek user
+              interfaces for FastReact Pizza, a
+              <Span> comprehensive food delivery app </Span> with realtime
+              features. Integrated Redux for efficient state management,
+              employing over 3 professional libraries for enhanced
+              functionality.
             </H3>
           </Div4>
         </Div3>

@@ -106,7 +106,7 @@ const P = styled("p")`
 `;
 function Education() {
   return (
-    <Div4 id="Education">
+    <Div4 className="section1" id="Education">
       <H3>Educational Pathway</H3>
       <Div>
         <Div2>

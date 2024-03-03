@@ -1,11 +1,22 @@
 import styled from "@emotion/styled";
+import { MdCloudDownload } from "react-icons/md";
 
 const Div = styled("div")`
   @media (max-width: 1200px) {
-    text-align: center;
+    position: absolute;
+    top: 2vh;
+    right: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   @media (min-width: 1200px) {
-    text-align: center;
+    position: absolute;
+    top: 0rem;
+    right: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 const Button = styled("button")`
@@ -29,8 +40,9 @@ const Button = styled("button")`
     }
   }
   @media (min-width: 1200px) {
-    font-size: 2rem;
-    width: 90%;
+    font-size: 3vw;
+    width: 5vw;
+    height: 5vw;
     border: none;
     border-radius: 10vw;
     padding-block: 0.5rem;
@@ -67,7 +79,9 @@ function PdfAdd() {
 
   return (
     <Div>
-      <Button onClick={downloadPDF}>Download Resume</Button>
+      <Button onClick={downloadPDF}>
+        <MdCloudDownload />
+      </Button>
     </Div>
   );
 }

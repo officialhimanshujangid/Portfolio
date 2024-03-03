@@ -46,7 +46,7 @@ const Box1 = styled(Box)`
   }
 `;
 const H1 = styled(Box)`
-  font-weight: 700;
+  font-weight: 300;
   @media (max-width: 1200px) {
     font-size: 1.3rem;
   }
@@ -64,18 +64,18 @@ const H2 = styled(Box)`
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: background 2s ease-in-out infinite;
-  background-color: #42d4b5;
-  color: black;
+  animation: background 5s ease-in-out infinite;
+  background-color: #7542d4;
+  color: #022e2a;
 
   @keyframes background {
     0% {
-      background-color: #42d4b5;
-      color: black;
+      background-color: #7542d4;
+      color: #022e2a;
     }
     50% {
-      background-color: #dee0e0;
-      color: #012920;
+      background-color: #170338;
+      color: #20a789;
     }
   }
 `;
@@ -97,6 +97,7 @@ const H3 = styled("h1")`
 function Skill() {
   return (
     <Box
+      className="section1"
       id="Skills"
       sx={{
         marginBlock: "5vh",

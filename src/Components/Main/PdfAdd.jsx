@@ -3,9 +3,9 @@ import { MdCloudDownload } from "react-icons/md";
 
 const Div = styled("div")`
   @media (max-width: 1200px) {
-    position: absolute;
+    /* position: absolute;
     top: 2vh;
-    right: 5vw;
+    right: 5vw; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +17,15 @@ const Div = styled("div")`
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+`;
+const Span = styled("span")`
+  @media (max-width: 1200px) {
+    padding-left: 2vw;
+    text-align: center;
+  }
+  @media (min-width: 1200px) {
+    display: none;
   }
 `;
 const Button = styled("button")`
@@ -81,6 +90,7 @@ function PdfAdd() {
     <Div>
       <Button onClick={downloadPDF}>
         <MdCloudDownload />
+        <Span>Download Resume</Span>
       </Button>
     </Div>
   );

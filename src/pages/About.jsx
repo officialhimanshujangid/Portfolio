@@ -56,8 +56,8 @@ const P2 = styled("p")`
     letter-spacing: 1px;
   }
   @media (min-width: 1200px) {
-    letter-spacing: 0.8rem;
-    line-height: 1.5rem;
+    letter-spacing: 1rem;
+    line-height: 1.8rem;
     font-size: 1.3rem;
     margin-block: 3rem;
     letter-spacing: 1.5px;
@@ -74,19 +74,11 @@ const Span1 = styled("span")`
     font-size: 3rem;
     margin-block: 0.5rem;
   }
-`;
-const Video = styled("video")`
   @media (min-width: 1200px) {
-    position: absolute;
-    top: 5vh;
-    right: 10vw;
-    width: 450px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-  }
-  @media (max-width: 1200px) {
-    display: none;
+    letter-spacing: 1rem;
   }
 `;
+
 // const Div2 = styled("div")``;
 function About() {
   return (
@@ -100,14 +92,6 @@ function About() {
         <Span>&#60;&#62;</Span> Front End Developer / React Developer
         <Span> &#60;/&#62;</Span>
       </P>
-      <Video
-        src="frontend6.mp4"
-        title="YouTube video player"
-        autoPlay
-        loop
-        muted
-        style={{ borderRadius: "10px" }}
-      ></Video>
 
       <P2>
         A React developer with a 1‑year track record in{" "}

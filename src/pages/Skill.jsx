@@ -64,8 +64,8 @@ const H2 = styled(Box)`
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: background 5s ease-in-out infinite;
-  background-color: #0a192f;
+  animation: background 6s ease-in-out infinite;
+  background-color: #073375;
   color: #f5eeee;
   @media (max-width: 1200px) {
     width: 50px;
@@ -74,12 +74,12 @@ const H2 = styled(Box)`
   }
   @keyframes background {
     0% {
-      background-color: #0a192f;
+      background-color: #073375;
       color: #ffffff;
     }
     50% {
       background-color: white;
-      color: #0a192f;
+      color: #073375;
     }
   }
 `;

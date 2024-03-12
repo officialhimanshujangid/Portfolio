@@ -29,7 +29,7 @@ const Span = styled("span")`
   }
 `;
 const Button = styled("button")`
-  background-color: #5cebcb;
+  background-color: #00ffc8;
   @media (max-width: 1200px) {
     font-size: 15px;
     width: 90%;

@@ -64,18 +64,18 @@ const H2 = styled(Box)`
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: background 4s ease-in-out infinite;
-  background-color: #02251e;
+  animation: background 5s ease-in-out infinite;
+  background-color: #0a192f;
   color: #f5eeee;
 
   @keyframes background {
     0% {
-      background-color: #02251e;
+      background-color: #0a192f;
       color: #ffffff;
     }
     50% {
-      background-color: #02251e;
-      color: #16dbb1;
+      background-color: white;
+      color: #0a192f;
     }
   }
 `;

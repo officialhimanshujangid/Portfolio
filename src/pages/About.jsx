@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import PdfAdd from "../Components/Main/PdfAdd";
+import TypingEffect from "../Components/Main/TypingEffect";
 
 const Div = styled("div")`
   font-family: "Nunito Sans", sans-serif;
@@ -65,10 +66,10 @@ const P2 = styled("p")`
   }
 `;
 const Span = styled("span")`
-  color: #5cebcb;
+  color: #00ffc8;
 `;
 const Span1 = styled("span")`
-  color: #5cebcb;
+  color: #00ffc8;
   font-size: 7rem;
   @media (max-width: 1200px) {
     font-size: 3rem;
@@ -89,7 +90,7 @@ function About() {
       </H1>
       <P>
         {" "}
-        <Span>&#60;&#62;</Span> Front End Developer / React Developer
+        <Span>&#60;&#62;</Span> <TypingEffect />
         <Span> &#60;/&#62;</Span>
       </P>
 

@@ -10,7 +10,7 @@ import Footer from "../../pages/Footer";
 const Div = styled("div")`
   text-align: justify;
   color: white;
-  background-color: #0a192f;
+  background-color: #013741;
   height: 88vh;
   overflow: scroll;
   scroll-behavior: smooth;

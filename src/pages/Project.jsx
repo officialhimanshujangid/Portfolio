@@ -8,12 +8,13 @@ const Div = styled(Box)`
 `;
 const Div2 = styled(Box)`
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 `;
 const Div4 = styled(Box)`
-  border: 3px solid white;
+  border: 1px solid white;
   padding: 2vh 2vw;
   margin: 1.5vh;
   transition: all 0.3s ease-in-out;
@@ -24,18 +25,20 @@ const Div4 = styled(Box)`
   }
 `;
 const Div3 = styled("a")`
-  width: 35vw;
+  width: 95%;
   text-decoration: none;
+
   color: aliceblue;
   cursor: pointer;
   @media (max-width: 1200px) {
-    width: 500px;
+    width: 95%;
   }
 `;
 const H1 = styled("h1")`
   margin: 0;
   margin-bottom: 0.3vh;
-  color: #5cebcb;
+  color: #00ffc8;
+  font-weight: 100;
   letter-spacing: 2px;
   @media (max-width: 1200px) {
     font-size: 1.5rem;
@@ -46,6 +49,7 @@ const H1 = styled("h1")`
 `;
 const H2 = styled("h2")`
   margin: 0;
+  font-weight: 100;
   margin-bottom: 0.3vh;
   @media (max-width: 1200px) {
     font-size: 1rem;
@@ -59,11 +63,13 @@ const H2 = styled("h2")`
 const H3 = styled("h3")`
   margin: 0;
   margin-bottom: 0.3vh;
-  color: #8791ae;
+  color: #ffffff;
+  font-weight: 100;
+
   @media (max-width: 1200px) {
     font-size: 1.05rem;
     letter-spacing: 1px;
-    display: none;
+    /* display: none; */
   }
   @media (min-width: 1200px) {
     font-size: 1.1rem;
@@ -83,7 +89,7 @@ const H4 = styled("h3")`
   }
 `;
 const Span = styled("span")`
-  color: #5cebcb;
+  color: #00ffc8;
 `;
 const Span2 = styled("span")`
   color: #0c88ee;
@@ -104,7 +110,7 @@ function Project() {
               The Wild OASIS
             </H1>
             <H2>
-              Website to handle All management of hotel with great features
+              ( Website to handle All management of hotel with great features)
             </H2>
             <H3>
               The Wild Oasis is a platform that is created using many
@@ -130,7 +136,7 @@ function Project() {
               SHOPMART
             </H1>
             <H2>
-              An e-commerce website with full functionality and attractive ui
+              ( An e-commerce website with full functionality and attractive ui)
             </H2>
             <H3>
               It offers an engaging interface, streamlined cart management, and
@@ -154,7 +160,7 @@ function Project() {
               </Span2>{" "}
               FAST REACT PIZZA CO.
             </H1>
-            <H2>Ultimate Stop for Quick Food Delivery</H2>
+            <H2>(Ultimate Stop for Quick Food Delivery)</H2>
             <H3>
               Used <Span>React and Tailwind CSS </Span>to design sleek user
               interfaces for FastReact Pizza, a
@@ -175,8 +181,8 @@ function Project() {
               MAPTY
             </H1>
             <H2>
-              Website for tracking of exercise like Running and Cycling with
-              access of Map
+              ( Website for tracking of exercise like Running and Cycling with
+              access of Map)
             </H2>
             <H3>
               MAPTY is a website using <Span>HTML, CSS , JAVASCRIPT</Span> in
@@ -195,7 +201,7 @@ function Project() {
               </Span2>{" "}
               BANKIST
             </H1>
-            <H2>Website for banking with all the features</H2>
+            <H2>(Website for banking with all the features)</H2>
             <H3>
               Created a website using <Span>HTML, CSS , JAVASCRIPT</Span> that
               is named as bankist . Bankist hasfeatures like transferring money

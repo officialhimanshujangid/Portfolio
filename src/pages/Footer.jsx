@@ -2,7 +2,6 @@ import styled from "@emotion/styled";
 import Links from "../Components/Header/Links";
 
 const FooterContainer = styled("footer")`
-  background-color: #0a192f;
   color: white;
   padding: 2rem;
   text-align: center;
@@ -31,7 +30,7 @@ const FooterParagraph = styled("div")`
 const FooterSpan = styled("a")`
   text-decoration: none;
   letter-spacing: 1px;
-  color: #5cebcb;
+  color: #00ffc8;
 `;
 
 function Footer() {

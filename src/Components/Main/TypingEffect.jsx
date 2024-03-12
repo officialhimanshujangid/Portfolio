@@ -7,9 +7,9 @@ const TypingEffect = () => {
   const [textIndex, setTextIndex] = useState(0);
 
   useEffect(() => {
-    const typeSpeed = 70; // Adjust the typing speed (milliseconds per character)
-    const delayBetweenTexts = 1000; // Adjust the delay between texts (milliseconds)
-    const deleteSpeed = 90; // Adjust the deleting speed (milliseconds per character)
+    const typeSpeed = 70;
+    const delayBetweenTexts = 1000;
+    const deleteSpeed = 90;
     const currentTextIndex = textIndex % texts.length;
     const currentString = texts[currentTextIndex];
     let typingTimer;

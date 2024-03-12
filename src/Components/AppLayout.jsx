@@ -7,7 +7,7 @@ import NavBar from "./Main/NavBar";
 
 const Box1 = styled(Box)`
   overflow: hidden;
-  background-color: rgb(159, 194, 186);
+  background-color: rgb(205, 231, 225);
   height: 100vh;
 `;
 function AppLayout() {

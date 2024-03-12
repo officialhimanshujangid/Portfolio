@@ -12,7 +12,7 @@ const Box1 = styled(Box)`
   position: sticky;
   top: 0;
   padding-inline: 5px;
-  /* background-color: rgb(159, 194, 186); */
+  /* background-color: rgb(208, 248, 239); */
   display: flex;
   font-family: "Nunito Sans", sans-serif;
   @media (max-width: 1200px) {

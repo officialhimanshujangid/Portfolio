@@ -56,18 +56,22 @@ const H1 = styled(Box)`
   }
 `;
 const H2 = styled(Box)`
-  font-size: 3vw;
+  font-size: 2.5rem;
   border-radius: 100vw;
 
-  width: 5vw;
-  height: 5vw;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
   animation: background 5s ease-in-out infinite;
   background-color: #0a192f;
   color: #f5eeee;
-
+  @media (max-width: 1200px) {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+  }
   @keyframes background {
     0% {
       background-color: #0a192f;

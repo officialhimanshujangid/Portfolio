@@ -113,7 +113,7 @@ function Experience() {
           </Div3>
           <H1>Frontend Engineer</H1>
           <H2>NK Technologies | Jaipur</H2>
-          <P>03/2023-02/2024</P>
+          <P>03/2023-03/2024</P>
         </Div2>
         <Div2>
           <Div3>

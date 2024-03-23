@@ -9,7 +9,7 @@ import { FaBootstrap } from "react-icons/fa6";
 import { SiReactrouter } from "react-icons/si";
 import { SiMui } from "react-icons/si";
 import { Box } from "@mui/material";
-
+import { SiNextdotjs } from "react-icons/si";
 const Div = styled("div")`
   font-family: "Nunito Sans", sans-serif;
   display: grid;
@@ -132,6 +132,12 @@ function Skill() {
             <FaReact />
           </H2>
           <H1>React.JS</H1>
+        </Box1>
+        <Box1>
+          <H2>
+            <SiNextdotjs />
+          </H2>
+          <H1>Next.JS</H1>
         </Box1>
         <Box1>
           <H2>

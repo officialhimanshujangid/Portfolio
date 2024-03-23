@@ -99,7 +99,8 @@ function About() {
         <Span> frontend engineering </Span>, I specialize in
         <Span>
           {" "}
-          React.js, Redux, JavaScript, Material UI and Tailwind CSS Bootstarp{" "}
+          React.js, Redux, JavaScript, Next.js, Material UI, Bootstarp and
+          Tailwind CSS{" "}
         </Span>
         . As an efficient and testable code writer, my background as a News
         Anchor and Radio Jockey in the media industry has honed my communication

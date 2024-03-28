@@ -31,6 +31,7 @@ const FooterSpan = styled("a")`
   text-decoration: none;
   letter-spacing: 1px;
   color: #00ffc8;
+  cursor: none;
 `;
 
 function Footer() {

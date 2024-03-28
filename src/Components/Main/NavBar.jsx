@@ -43,7 +43,7 @@ const Link1 = styled(Link)`
   display: flex;
   text-decoration: none;
   width: 100%;
-
+  cursor: none;
   &.active {
     background-color: #0a192f;
     position: relative;

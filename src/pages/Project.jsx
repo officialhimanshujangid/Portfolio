@@ -12,6 +12,7 @@ const Div2 = styled(Box)`
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  cursor: none;
 `;
 const Div4 = styled(Box)`
   border: 1px solid white;
@@ -19,6 +20,7 @@ const Div4 = styled(Box)`
   margin: 1.5vh;
   transition: all 0.3s ease-in-out;
   border-radius: 10px;
+  cursor: none;
   &:hover {
     transform: scale(0.95);
     transition: all 0.3s ease-in-out;
@@ -27,9 +29,9 @@ const Div4 = styled(Box)`
 const Div3 = styled("a")`
   width: 95%;
   text-decoration: none;
-
+  cursor: none;
   color: aliceblue;
-  cursor: pointer;
+
   @media (max-width: 1200px) {
     width: 95%;
   }

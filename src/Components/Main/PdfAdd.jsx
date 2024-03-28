@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import { MdCloudDownload } from "react-icons/md";
 
 const Div = styled("div")`
+  cursor: none;
   @media (max-width: 1200px) {
     /* position: absolute;
     top: 2vh;
@@ -30,6 +31,7 @@ const Span = styled("span")`
 `;
 const Button = styled("button")`
   background-color: #00ffc8;
+  cursor: none;
   @media (max-width: 1200px) {
     font-size: 15px;
     width: 90%;
@@ -41,7 +43,7 @@ const Button = styled("button")`
     font-weight: 600;
 
     margin-top: 0.6rem;
-    cursor: pointer;
+
     transition: all 0.5s ease-in-out;
     &:hover {
       transform: scale(1.06);
@@ -60,7 +62,7 @@ const Button = styled("button")`
     font-weight: 700;
 
     margin-top: 1rem;
-    cursor: pointer;
+
     transition: all 0.5s ease-in-out;
     &:hover {
       transform: scale(1.06);

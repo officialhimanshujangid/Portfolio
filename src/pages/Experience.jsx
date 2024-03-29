@@ -19,6 +19,12 @@ const Div = styled("div")`
   }
 `;
 const Div2 = styled("div")`
+  transform: translateX(400%);
+  transition: all 0.5s ease-in-out;
+  &.active {
+    transform: translateX(0%);
+    transition: all 0.5s ease-in-out;
+  }
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,6 +95,12 @@ const Div3 = styled("div")`
   }
 `;
 const H3 = styled("h2")`
+  transform: translateX(-400%);
+  transition: all 0.5s ease-in-out;
+  &.active {
+    transform: translateX(0%);
+    transition: all 0.5s ease-in-out;
+  }
   font-family: "Nunito Sans", sans-serif;
   text-align: center;
   text-align: center;
@@ -105,9 +117,9 @@ const H3 = styled("h2")`
 function Experience() {
   return (
     <Div4 className="section1" id="Experience">
-      <H3>Professional Journey</H3>
+      <H3 className="hh">Professional Journey</H3>
       <Div>
-        <Div2>
+        <Div2 className="hh">
           <Div3>
             <MdOutlineWork />
           </Div3>
@@ -115,7 +127,7 @@ function Experience() {
           <H2>NK Technologies | Jaipur</H2>
           <P>03/2023-03/2024</P>
         </Div2>
-        <Div2>
+        <Div2 className="hh">
           <Div3>
             <MdOutlineWork />
           </Div3>
@@ -123,7 +135,7 @@ function Experience() {
           <H2>Bhilai Times | Chattisgarh</H2>
           <P>09/2021-02/2023</P>
         </Div2>
-        <Div2>
+        <Div2 className="hh">
           <Div3>
             <MdOutlineWork />
           </Div3>

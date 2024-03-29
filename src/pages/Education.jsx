@@ -20,6 +20,12 @@ const Div = styled("div")`
   }
 `;
 const Div2 = styled("div")`
+  transform: translateX(400%);
+  transition: all 0.5s ease-in-out;
+  &.active {
+    transform: translateX(0%);
+    transition: all 0.5s ease-in-out;
+  }
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,6 +45,12 @@ const Div2 = styled("div")`
   }
 `;
 const H3 = styled("h2")`
+  transform: translateX(-400%);
+  transition: all 0.5s ease-in-out;
+  &.active {
+    transform: translateX(0%);
+    transition: all 0.5s ease-in-out;
+  }
   font-family: "Nunito Sans", sans-serif;
   text-align: center;
   text-align: center;
@@ -107,9 +119,9 @@ const P = styled("p")`
 function Education() {
   return (
     <Div4 className="section1" id="Education">
-      <H3>Educational Pathway</H3>
+      <H3 className="hh">Educational Pathway</H3>
       <Div>
-        <Div2>
+        <Div2 className="hh">
           <Div3>
             <IoSchoolSharp />
           </Div3>
@@ -117,7 +129,7 @@ function Education() {
           <H2>Rajasthan Technical University</H2>
           <P>2016-2020</P>
         </Div2>
-        <Div2>
+        <Div2 className="hh">
           <Div3>
             <IoSchoolSharp />
           </Div3>
@@ -125,7 +137,7 @@ function Education() {
           <H2>Board of Secondary Education</H2>
           <P>2015-2016</P>
         </Div2>
-        <Div2>
+        <Div2 className="hh">
           <Div3>
             <IoSchoolSharp />
           </Div3>

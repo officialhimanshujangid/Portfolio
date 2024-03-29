@@ -31,7 +31,12 @@ const Div3 = styled("a")`
   text-decoration: none;
   cursor: none;
   color: aliceblue;
-
+  transform: translateX(-400%);
+  transition: all 0.5s ease-in-out;
+  &.active {
+    transform: translateX(0%);
+    transition: all 0.5s ease-in-out;
+  }
   @media (max-width: 1200px) {
     width: 95%;
   }
@@ -81,6 +86,12 @@ const H3 = styled("h3")`
 const H4 = styled("h3")`
   text-align: center;
   text-transform: capitalize;
+  transform: translateX(400%);
+  transition: all 0.5s ease-in-out;
+  &.active {
+    transform: translateX(0%);
+    transition: all 0.5s ease-in-out;
+  }
   @media (max-width: 1200px) {
     font-size: 1.2rem;
     letter-spacing: 1px;
@@ -100,9 +111,12 @@ const Span2 = styled("span")`
 function Project() {
   return (
     <Div className="section1" id="Projects">
-      <H4>Project Showcase</H4>
+      <H4 className="hh">Project Showcase</H4>
       <Div2>
-        <Div3 href="https://the-wild-oasis-by-himanshu.netlify.app/">
+        <Div3
+          className="hh"
+          href="https://the-wild-oasis-by-himanshu.netlify.app/"
+        >
           <Div4>
             <H1>
               {" "}
@@ -128,7 +142,7 @@ function Project() {
             </H3>
           </Div4>
         </Div3>
-        <Div3 href="https://shopmart-by-himanshu.netlify.app">
+        <Div3 className="hh" href="https://shopmart-by-himanshu.netlify.app">
           <Div4>
             <H1>
               {" "}
@@ -153,7 +167,10 @@ function Project() {
             </H3>
           </Div4>
         </Div3>
-        <Div3 href="https://fast-react-pizza-by-himanshu.netlify.app/">
+        <Div3
+          className="hh"
+          href="https://fast-react-pizza-by-himanshu.netlify.app/"
+        >
           <Div4>
             <H1>
               {" "}
@@ -173,7 +190,7 @@ function Project() {
             </H3>
           </Div4>
         </Div3>
-        <Div3 href="https://mapty-by-himanshu.netlify.app/">
+        <Div3 className="hh" href="https://mapty-by-himanshu.netlify.app/">
           <Div4>
             <H1>
               {" "}
@@ -194,7 +211,7 @@ function Project() {
             </H3>
           </Div4>
         </Div3>
-        <Div3 href="https://bankist-by-himanshu.netlify.app/">
+        <Div3 className="hh" href="https://bankist-by-himanshu.netlify.app/">
           <Div4>
             <H1>
               {" "}

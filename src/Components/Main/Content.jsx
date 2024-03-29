@@ -24,11 +24,18 @@ const Div = styled("div")`
 `;
 
 function Content() {
-  function handleScroll(e) {
-    console.log(e.target.childElement);
+  function handleScroll() {
+    const triggerBottom = (window.innerHeight / 5) * 4;
+    const anm = document.querySelectorAll(".hh");
+
+    anm.forEach((el) => {
+      const skl = el.getBoundingClientRect();
+      skl.y < triggerBottom && el.classList.add("active");
+      skl.y > triggerBottom && el.classList.remove("active");
+    });
   }
   return (
-    <Div onScroll={(e) => handleScroll(e)}>
+    <Div onScroll={() => handleScroll()}>
       <About />
       <Skill />
       <Project />

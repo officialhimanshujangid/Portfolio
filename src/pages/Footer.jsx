@@ -2,6 +2,12 @@ import styled from "@emotion/styled";
 import Links from "../Components/Header/Links";
 
 const FooterContainer = styled("footer")`
+  transform: translateX(-400%);
+  transition: all 0.5s ease-in-out;
+  &.active {
+    transform: translateX(0%);
+    transition: all 0.5s ease-in-out;
+  }
   color: white;
   padding: 2rem;
   text-align: center;
@@ -36,7 +42,7 @@ const FooterSpan = styled("a")`
 
 function Footer() {
   return (
-    <FooterContainer className="section1" id="contact">
+    <FooterContainer className="section1 hh" id="contact">
       <FooterContent>
         <FooterHeading>Contact Me</FooterHeading>
         <FooterParagraph>

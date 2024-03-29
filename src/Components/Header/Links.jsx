@@ -45,6 +45,7 @@ function Links() {
         target="_blank"
         rel="noopener noreferrer"
         color={"inherit"}
+        sx={{ cursor: "none " }}
       >
         <GitHubIcon sx={{ fontSize: { lg: "3rem" } }} />
       </Link>
@@ -53,6 +54,7 @@ function Links() {
         target="_blank"
         rel="noopener noreferrer"
         color={"inherit"}
+        sx={{ cursor: "none " }}
       >
         <LinkedInIcon sx={{ fontSize: { lg: "3rem" } }} />
       </Link>
@@ -61,6 +63,7 @@ function Links() {
         target="_blank"
         rel="noopener noreferrer"
         color={"inherit"}
+        sx={{ cursor: "none " }}
       >
         <XIcon sx={{ fontSize: { lg: "3rem" } }} />
       </Link>
@@ -69,6 +72,7 @@ function Links() {
         target="_blank"
         rel="noopener noreferrer"
         color={"inherit"}
+        sx={{ cursor: "none " }}
       >
         <InstagramIcon sx={{ fontSize: { lg: "3rem" } }} />
       </Link>

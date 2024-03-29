@@ -18,10 +18,10 @@ const StyledBox = styled(Box)`
 const Circle = styled.div`
   @media (min-width: 1200px) {
     position: absolute;
-    width: 15px;
-    height: 15px;
-    background-color: rgb(255, 0, 0);
-
+    width: 10px;
+    height: 10px;
+    background-color: rgb(1, 58, 62);
+    border: 10px solid rgb(128, 182, 197);
     border-radius: 50%;
     pointer-events: none;
     transform: translateX(-50%) translateY(-50%);

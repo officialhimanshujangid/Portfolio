@@ -11,19 +11,26 @@ const StyledBox = styled(Box)`
   background-color: rgb(205, 231, 225);
   height: 100vh;
   cursor: none;
+
   position: relative; /* Make the container relative for positioning the circle */
 `;
 
 const Circle = styled.div`
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  background-color: rgb(255, 0, 0);
-  /* border: 5px dotted rgb(255, 225, 0); */
-  border-radius: 50%;
-  pointer-events: none;
-  transform: translateX(-50%) translateY(-50%);
-  z-index: 9999;
+  @media (min-width: 1200px) {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 0, 0);
+
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 9999;
+    display: ${({ visible }) => (visible ? "block" : "none")};
+  }
+  @media (max-width: 1200px) {
+    display: none;
+  }
 `;
 
 function AppLayout() {
@@ -55,7 +62,6 @@ function AppLayout() {
         style={{
           left: circlePosition.x,
           top: circlePosition.y,
-          display: `${circleVisible ? "block" : "none"}`,
         }}
       />
     </StyledBox>

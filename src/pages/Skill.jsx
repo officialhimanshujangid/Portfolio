@@ -40,6 +40,21 @@ const Box1 = styled(Box)`
   &.active {
     transform: translateX(0%);
     transition: all 0.5s ease-in-out;
+    animation: sss 0.5s;
+    @keyframes sss {
+      0% {
+        transform: translateX(400%);
+      }
+      40% {
+        transform: translateX(-30%);
+      }
+      80% {
+        transform: translateX(15%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
   }
   @media (max-width: 1200px) {
     padding: 3vh 5vw;
@@ -97,6 +112,21 @@ const H3 = styled("h1")`
   &.active {
     transform: translateX(0%);
     transition: all 0.5s ease-in-out;
+    animation: sss 0.5s;
+    @keyframes sss {
+      0% {
+        transform: translateX(-400%);
+      }
+      40% {
+        transform: translateX(30%);
+      }
+      80% {
+        transform: translateX(-15%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
   }
   @media (max-width: 1200px) {
     font-size: 1.2rem;

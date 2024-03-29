@@ -36,6 +36,21 @@ const Div3 = styled("a")`
   &.active {
     transform: translateX(0%);
     transition: all 0.5s ease-in-out;
+    animation: sss 0.5s;
+    @keyframes sss {
+      0% {
+        transform: translateX(-400%);
+      }
+      40% {
+        transform: translateX(30%);
+      }
+      80% {
+        transform: translateX(-15%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
   }
   @media (max-width: 1200px) {
     width: 95%;
@@ -91,6 +106,21 @@ const H4 = styled("h3")`
   &.active {
     transform: translateX(0%);
     transition: all 0.5s ease-in-out;
+    animation: sss 0.5s;
+    @keyframes sss {
+      0% {
+        transform: translateX(400%);
+      }
+      40% {
+        transform: translateX(-30%);
+      }
+      80% {
+        transform: translateX(15%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
   }
   @media (max-width: 1200px) {
     font-size: 1.2rem;

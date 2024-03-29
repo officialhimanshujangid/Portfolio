@@ -24,6 +24,21 @@ const Div2 = styled("div")`
   &.active {
     transform: translateX(0%);
     transition: all 0.5s ease-in-out;
+    animation: sss 0.5s;
+    @keyframes sss {
+      0% {
+        transform: translateX(400%);
+      }
+      40% {
+        transform: translateX(-30%);
+      }
+      80% {
+        transform: translateX(15%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
   }
   display: flex;
   flex-direction: column;
@@ -100,6 +115,21 @@ const H3 = styled("h2")`
   &.active {
     transform: translateX(0%);
     transition: all 0.5s ease-in-out;
+    animation: sss 0.5s;
+    @keyframes sss {
+      0% {
+        transform: translateX(-400%);
+      }
+      40% {
+        transform: translateX(30%);
+      }
+      80% {
+        transform: translateX(-15%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
   }
   font-family: "Nunito Sans", sans-serif;
   text-align: center;

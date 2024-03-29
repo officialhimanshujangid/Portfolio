@@ -7,6 +7,21 @@ const FooterContainer = styled("footer")`
   &.active {
     transform: translateX(0%);
     transition: all 0.5s ease-in-out;
+    animation: sss 0.5s;
+    @keyframes sss {
+      0% {
+        transform: translateX(-400%);
+      }
+      40% {
+        transform: translateX(30%);
+      }
+      80% {
+        transform: translateX(-15%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
   }
   color: white;
   padding: 2rem;

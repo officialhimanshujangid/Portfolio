@@ -15,6 +15,7 @@ const Div = styled("div")`
   overflow: scroll;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  box-shadow: 0px -5px 5px rgba(1, 18, 32, 0.3);
   @media (max-width: 1200px) {
     padding: 0.2rem;
     /* margin-top: 0.3rem; */

@@ -21,12 +21,32 @@ const Circle = styled.div`
     width: 10px;
     height: 10px;
     /* background-color: rgb(1, 58, 62); */
-    border: 12px solid rgb(192, 178, 141);
+    border: 15px solid rgb(204, 151, 151);
     border-radius: 50%;
     pointer-events: none;
     transform: translateX(-50%) translateY(-50%);
     z-index: 9999;
     display: ${({ visible }) => (visible ? "block" : "none")};
+    animation: blink 1s ease-in-out infinite;
+    @keyframes blink {
+      0%{
+        border: 15px solid rgb(204, 151, 151);
+      }
+    25%{
+        border: 11px solid rgb(204, 151, 151);
+      }
+      50%{
+        border: 7px solid rgb(204, 151, 151);
+      }
+      75%{
+        border: 12px solid rgb(204, 151, 151);
+      }
+      100%{
+        border: 15px solid rgb(204, 151, 151);
+      }
+      
+    }
+  }
   }
   @media (max-width: 1200px) {
     display: none;
@@ -35,8 +55,8 @@ const Circle = styled.div`
 const Circle2 = styled.div`
   @media (min-width: 1200px) {
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     background-color: rgb(255, 17, 0);
     /* border: 10px solid rgb(128, 182, 197); */
     border-radius: 50%;
@@ -44,7 +64,7 @@ const Circle2 = styled.div`
     transform: translateX(-50%) translateY(-50%);
     z-index: 9999;
     display: ${({ visible }) => (visible ? "block" : "none")};
-  }
+   
   @media (max-width: 1200px) {
     display: none;
   }

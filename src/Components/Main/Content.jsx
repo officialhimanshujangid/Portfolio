@@ -12,16 +12,19 @@ const Div = styled("div")`
   color: white;
   background-color: #032127;
   height: 88vh;
-  width: 100vw;
   overflow: scroll;
   overflow-x: hidden;
   scroll-behavior: smooth;
   @media (max-width: 1200px) {
-    padding-left: 0.2rem;
-    margin-top: 0.3rem;
+    padding: 0.2rem;
+    /* margin-top: 0.3rem; */
+    margin-inline: 8px;
+    border-radius: 30px 30px 0 0;
   }
   @media (min-width: 1200px) {
     padding: 5px;
+    margin-inline: 10px;
+    border-radius: 30px 30px 0 0;
   }
 `;
 

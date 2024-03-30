@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 import styled from "@emotion/styled";
 import { RiHtml5Fill } from "react-icons/ri";
 import { SiCss3, SiTailwindcss } from "react-icons/si";
@@ -13,17 +12,16 @@ import { Box } from "@mui/material";
 import { SiNextdotjs } from "react-icons/si";
 const Div = styled("div")`
   font-family: "Nunito Sans", sans-serif;
-  /* display: grid; */
-  gap: 3vw;
-  display: flex;
-
+  display: grid;
+  gap: 2vw;
+  margin-bottom: 5vh;
   padding-inline: 1rem;
 
   @media (max-width: 1200px) {
-    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
   }
   @media (min-width: 1200px) {
-    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
   }
 `;
 const Box1 = styled(Box)`
@@ -150,83 +148,74 @@ function Skill() {
       }}
     >
       <H3 className="hh"> Expertise Snapshot</H3>
-      <marquee
-        width="100%"
-        behavior="scroll"
-        direction="left"
-        scrollamount="10"
-        loop="1"
-        style={{ marginTop: "20px" }}
-      >
-        <Div>
-          <Box1 className="hh">
-            <H2>
-              <RiHtml5Fill />
-            </H2>
-            <H1>HTML</H1>
-          </Box1>
-          <Box1 className="hh">
-            <H2>
-              <SiCss3 />
-            </H2>
-            <H1>CSS</H1>
-          </Box1>
-          <Box1 className="hh">
-            <H2>
-              <DiJavascript />
-            </H2>
-            <H1>JavaScript</H1>
-          </Box1>
-          <Box1 className="hh">
-            <H2>
-              <FaReact />
-            </H2>
-            <H1>React.JS</H1>
-          </Box1>
-          <Box1 className="hh">
-            <H2>
-              <SiNextdotjs />
-            </H2>
-            <H1>Next.JS</H1>
-          </Box1>
-          <Box1 className="hh">
-            <H2>
-              <TbBrandRedux />
-            </H2>
-            <H1>Redux</H1>
-          </Box1>
-          <Box1 className="hh">
-            <H2>
-              <SiReactquery />
-            </H2>
-            <H1>React Query</H1>
-          </Box1>
-          <Box1 className="hh">
-            <H2>
-              <SiTailwindcss />
-            </H2>
-            <H1>Tailwind CSS</H1>
-          </Box1>
-          <Box1 className="hh">
-            <H2>
-              <FaBootstrap />
-            </H2>
-            <H1>Bootstrap</H1>
-          </Box1>
-          <Box1 className="hh">
-            <H2>
-              <SiReactrouter />
-            </H2>
-            <H1>React-Router</H1>
-          </Box1>
-          <Box1 className="hh">
-            <H2>
-              <SiMui />
-            </H2>
-            <H1>Material-UI</H1>
-          </Box1>
-        </Div>
-      </marquee>
+      <Div>
+        <Box1 className="hh">
+          <H2>
+            <RiHtml5Fill />
+          </H2>
+          <H1>HTML</H1>
+        </Box1>
+        <Box1 className="hh">
+          <H2>
+            <SiCss3 />
+          </H2>
+          <H1>CSS</H1>
+        </Box1>
+        <Box1 className="hh">
+          <H2>
+            <DiJavascript />
+          </H2>
+          <H1>JavaScript</H1>
+        </Box1>
+        <Box1 className="hh">
+          <H2>
+            <FaReact />
+          </H2>
+          <H1>React.JS</H1>
+        </Box1>
+        <Box1 className="hh">
+          <H2>
+            <SiNextdotjs />
+          </H2>
+          <H1>Next.JS</H1>
+        </Box1>
+        <Box1 className="hh">
+          <H2>
+            <TbBrandRedux />
+          </H2>
+          <H1>Redux</H1>
+        </Box1>
+        <Box1 className="hh">
+          <H2>
+            <SiReactquery />
+          </H2>
+          <H1>React Query</H1>
+        </Box1>
+        <Box1 className="hh">
+          <H2>
+            <SiTailwindcss />
+          </H2>
+          <H1>Tailwind CSS</H1>
+        </Box1>
+        <Box1 className="hh">
+          <H2>
+            <FaBootstrap />
+          </H2>
+          <H1>Bootstrap</H1>
+        </Box1>
+        <Box1 className="hh">
+          <H2>
+            <SiReactrouter />
+          </H2>
+          <H1>React-Router</H1>
+        </Box1>
+        <Box1 className="hh">
+          <H2>
+            <SiMui />
+          </H2>
+          <H1>Material-UI</H1>
+        </Box1>
+      </Div>
     </Box>
   );
 }

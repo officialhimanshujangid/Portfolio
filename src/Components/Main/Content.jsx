@@ -12,7 +12,9 @@ const Div = styled("div")`
   color: white;
   background-color: #032127;
   height: 88vh;
+  width: 100vw;
   overflow: scroll;
+  overflow-x: hidden;
   scroll-behavior: smooth;
   @media (max-width: 1200px) {
     padding-left: 0.2rem;

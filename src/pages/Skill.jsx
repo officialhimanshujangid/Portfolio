@@ -31,6 +31,7 @@ const Box1 = styled(Box)`
   display: flex;
   flex-direction: column;
   align-items: center;
+
   justify-content: space-around;
   gap: 0.9vh;
   /* &:hover {

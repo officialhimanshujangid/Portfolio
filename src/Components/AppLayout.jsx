@@ -21,7 +21,7 @@ const Circle = styled.div`
     width: 10px;
     height: 10px;
     /* background-color: rgb(1, 58, 62); */
-    border: 15px solid rgb(204, 151, 151);
+    border: 8px solid rgb(128, 182, 197);
     border-radius: 50%;
     pointer-events: none;
     transform: translateX(-50%) translateY(-50%);
@@ -30,19 +30,19 @@ const Circle = styled.div`
     animation: blink 1s ease-in-out infinite;
     @keyframes blink {
       0%{
-        border: 15px solid rgb(204, 151, 151);
+        border: 10px solid rgb(128, 182, 197);
       }
     25%{
-        border: 11px solid rgb(204, 151, 151);
+        border: 7px solid rgb(128, 182, 197);
       }
       50%{
-        border: 7px solid rgb(204, 151, 151);
+        border: 5px solid rgb(128, 182, 197);
       }
       75%{
-        border: 12px solid rgb(204, 151, 151);
+        border: 7px solid rgb(128, 182, 197);
       }
       100%{
-        border: 15px solid rgb(204, 151, 151);
+        border: 10px solid rgb(128, 182, 197);
       }
       
     }
@@ -57,8 +57,8 @@ const Circle2 = styled.div`
     position: absolute;
     width: 12px;
     height: 12px;
-    background-color: rgb(255, 17, 0);
-    /* border: 10px solid rgb(128, 182, 197); */
+    background-color: rgb(255, 166, 0);
+    /* border: 10px solid rgb(5, 141, 179); */
     border-radius: 50%;
     pointer-events: none;
     transform: translateX(-50%) translateY(-50%);

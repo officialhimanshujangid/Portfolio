@@ -4,7 +4,7 @@ import Project from "../../pages/Project";
 import Experience from "../../pages/Experience";
 import Education from "../../pages/Education";
 
-import Skill from "../../pages/Skill";
+import Skill from "../../pages/Skill copy";
 import Footer from "../../pages/Footer";
 
 const Div = styled("div")`

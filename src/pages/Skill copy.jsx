@@ -36,11 +36,11 @@ const Box1 = styled(Box)`
     transition: all 0.3s ease-in-out;
   } */
   transform: translateX(400%);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
   &.active {
     transform: translateX(0%);
-    transition: all 0.5s ease-in-out;
-    animation: sss 0.5s;
+    transition: all 0.8s ease-in-out;
+    animation: sss 0.8s;
     @keyframes sss {
       0% {
         transform: translateX(400%);
@@ -108,11 +108,11 @@ const H3 = styled("h1")`
   text-align: center;
   text-transform: capitalize;
   transform: translateX(-400%);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
   &.active {
     transform: translateX(0%);
-    transition: all 0.5s ease-in-out;
-    animation: sss 0.5s;
+    transition: all 0.8s ease-in-out;
+    animation: sss 0.8s;
     @keyframes sss {
       0% {
         transform: translateX(-400%);

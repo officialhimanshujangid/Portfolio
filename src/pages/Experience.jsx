@@ -20,11 +20,11 @@ const Div = styled("div")`
 `;
 const Div2 = styled("div")`
   transform: translateX(400%);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
   &.active {
     transform: translateX(0%);
-    transition: all 0.5s ease-in-out;
-    animation: sss 0.5s;
+    transition: all 0.8s ease-in-out;
+    animation: sss 0.8s;
     @keyframes sss {
       0% {
         transform: translateX(400%);
@@ -111,11 +111,11 @@ const Div3 = styled("div")`
 `;
 const H3 = styled("h2")`
   transform: translateX(-400%);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
   &.active {
     transform: translateX(0%);
-    transition: all 0.5s ease-in-out;
-    animation: sss 0.5s;
+    transition: all 0.8s ease-in-out;
+    animation: sss 0.8s;
     @keyframes sss {
       0% {
         transform: translateX(-400%);
